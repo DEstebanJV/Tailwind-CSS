@@ -1,0 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.menu-hover {
+        @apply hover:text-pink-500 hover:underline;
+    }
