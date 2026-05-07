@@ -2,7 +2,13 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          dark: '#000000', /* Forma de agregar colores en tailwind v3 */
+        },
+      },
+    },
   },
   plugins: [],
 }

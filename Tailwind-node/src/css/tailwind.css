@@ -11,10 +11,20 @@ base
 components
 utilities
 */
+
+/* @theme {
+  --color-brand-dark: red;  version v4
+}
+ */
 @layer components {
 
 .menu-hover {
         @apply hover:text-pink-500 hover:underline;
 
+    }
+
+.bg-brand-red {
+       /* @apply bg-[var(--brand-dark)]; */  /* Formas de agregar colores personalizados con root */
+       @apply bg-[#fb345d];
     }
 }    
