@@ -2,6 +2,19 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* import v4  
+@import "tailwindcss";
+*/
+/* orden cascada tailwind v4
+theme 
+base
+components
+utilities
+*/
+@layer components {
+
 .menu-hover {
         @apply hover:text-pink-500 hover:underline;
+
     }
+}    
